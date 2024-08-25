@@ -69,6 +69,9 @@ const Form = () => {
         <h1 className="text-2xl font-bold text-center mb-4 text-gray-800">
           Submit Your JSON
         </h1>
+        <a href="https://github.com/varunsp-163?tab=repositories" target="/">
+          Github code
+        </a>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
             <label className="block text-gray-700 font-medium mb-2">
