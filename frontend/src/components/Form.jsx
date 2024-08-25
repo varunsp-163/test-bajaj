@@ -23,9 +23,9 @@ const Form = () => {
       }
       setError("");
 
-      // Make the API call
       const response = await axios.post(
-        "http://localhost:3000/bfhl",
+        // "http://localhost:3000/bfhl",
+        "https://test-bajaj-backend.vercel.app/bfhl",
         parsedData
       );
       setResponseData(response.data);
